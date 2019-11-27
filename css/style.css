@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+.heading {
+    background-image: url(../images/GALACIO_C_BtR2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover, contain;
+    background-blend-mode: multiply;
+    padding: 20rem;
+}
+
+h1 {
+    margin: auto;
+}
+
+#rectangle {
+   width: auto;
+    height: 25rem;
+    background: rgba(238, 238, 238, 0.2);
+
+}
+
+#name {
+    text-align: center;
+    position: relative;
+    color: white;
+    padding-top: 9rem;
+}
+
+#name2 {
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+/* About Me */
+.second {
+     background-image: url(../images/123.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    padding: 21rem;
+}
+
+.aboutme {
+    padding-left: 70%;
+    font-size: 3rem;
+}
+
+.iam, .alsoa {
+    font-size: 1.5rem;
+    padding-left: 62%;
+}
+
+.iam1, .alsoa1 {
+    font-size: 2rem;
+    padding-left: 67%
+}
+
+h3 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+/* Gallery */
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+
+	padding: 2rem;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	margin: 0;
+}
+
+
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+
+
+/* Tablet View */
+@media only screen and (max-width: 1280px) {
+	.heading {
+		background-image: url(../images/GALACIO_C_BtR2.jpg);
+		background-repeat: no-repeat;
+		background-size: cover, contain;
+		background-blend-mode: multiply;
+		padding: 15rem;
+	}
+
+	h1 {
+		margin: auto;
+	}
+	
+	#rectangle {
+	   width: auto;
+		height: 20rem;
+		background: rgba(238, 238, 238, 0.2);
+	
+	}
+	
+	#name {
+		text-align: center;
+		position: relative;
+		color: white;
+		padding-top: 7rem;
+		font-size: 2.5rem;
+	}
+	
+	#name2 {
+		text-align: center;
+		position: relative;
+		color: white;
+		font-size: 2.5rem;
+	}
+
+	.second {
+		background-image: url(../images/123.jpg);
+	   background-repeat: no-repeat;
+	   background-blend-mode: multiply;
+	   padding: 15rem;
+	   margin-left: -12rem;
+   }
+   
+   .aboutme {
+	   padding-left: 70%;
+	   font-size: 2.5rem;
+	   margin-right: 6rem;
+   }
+   
+   .iam, .alsoa {
+	   font-size: 1rem;
+	   padding-left: 62%;
+   }
+   
+   .iam1, .alsoa1 {
+	   font-size: 2rem;
+	   padding-left: 67%
+   }
+   
+   h3 {
+	   text-align: center;
+	   font-size: 2.5rem;
+   }
+}
+
+/* mobile */
+@media only screen and (max-width: 559px) {
+	.heading {
+		background-image: url(../images/GALACIO_C_BtR2.jpg);
+		background-repeat: no-repeat;
+		background-size: cover, contain;
+		background-blend-mode: multiply;
+		padding: 10rem;
+	}
+
+	h1 {
+		margin: auto;
+	}
+	
+	#rectangle {
+	   width: auto;
+		height: 10rem;
+		background: rgba(238, 238, 238, 0.2);
+	
+	}
+	
+	#name {
+		text-align: center;
+		position: relative;
+		color: white;
+		padding-top: 3.5rem;
+		font-size: 1.5rem;
+	}
+	
+	#name2 {
+		text-align: center;
+		position: relative;
+		color: white;
+		font-size: 1.5rem;
+	}
+	
+	.second {
+		background-image: url(../images/123.jpg);
+	   background-repeat: no-repeat;
+	   background-blend-mode: multiply;
+	   padding: 10rem;
+   }
+   
+   .aboutme {
+	   padding-left: 20%;
+	   font-size: 2.5rem;
+	   margin-right: 6rem;
+   }
+   
+   .iam, .alsoa {
+	   font-size: 1rem;
+	   padding-left: 15%;
+   }
+   
+   .iam1, .alsoa1 {
+	   font-size: 2rem;
+	   padding-left: 20%
+   }
+   
+   h3 {
+	   text-align: center;
+	   font-size: 2.5rem;
+   }
+
+   .footer-distributed{
+	font: 14px sans-serif;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: block;
+	width: 100%;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.footer-distributed .footer-center i{
+	margin-left: 0;
+}
+
+
+}
