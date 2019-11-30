@@ -64,12 +64,19 @@ h3 {
     font-size: 3rem;
 }
 
+ul {
+	text-align: center;
+	font-size: 2rem;
+}
+
+#project {
+	font-size: 3rem;
+}
 
 /* Gallery */
 .container.gallery-container {
     background-color: #fff;
     color: #35373a;
-    min-height: 100vh;
     border-radius: 20px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
 }
