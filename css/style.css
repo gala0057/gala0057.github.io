@@ -73,6 +73,15 @@ ul {
 	font-size: 3rem;
 }
 
+#videos {
+	
+	position: relative;
+	left: 50;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+}
+
 /* Gallery */
 .container.gallery-container {
     background-color: #fff;
